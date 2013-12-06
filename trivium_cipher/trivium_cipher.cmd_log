@@ -1,0 +1,50 @@
+xst -intstyle ise -ifn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.xst" -ofn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.syr" 
+xst -intstyle ise -ifn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.xst" -ofn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.syr" 
+xst -intstyle ise -ifn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.xst" -ofn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc trivium.ucf -p xc3s500e-fg320-5 trivium_cipher.ngc trivium_cipher.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o trivium_cipher_map.ncd trivium_cipher.ngd trivium_cipher.pcf 
+par -w -intstyle ise -ol high -t 1 trivium_cipher_map.ncd trivium_cipher.ncd trivium_cipher.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml trivium_cipher.twx trivium_cipher.ncd -o trivium_cipher.twr trivium_cipher.pcf -ucf trivium.ucf 
+bitgen -intstyle ise -f trivium_cipher.ut trivium_cipher.ncd 
+xst -intstyle ise -ifn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.xst" -ofn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc trivium.ucf -p xc3s500e-fg320-5 trivium_cipher.ngc trivium_cipher.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o trivium_cipher_map.ncd trivium_cipher.ngd trivium_cipher.pcf 
+par -w -intstyle ise -ol high -t 1 trivium_cipher_map.ncd trivium_cipher.ncd trivium_cipher.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml trivium_cipher.twx trivium_cipher.ncd -o trivium_cipher.twr trivium_cipher.pcf -ucf trivium.ucf 
+bitgen -intstyle ise -f trivium_cipher.ut trivium_cipher.ncd 
+xst -intstyle ise -ifn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.xst" -ofn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.syr" 
+xst -intstyle ise -ifn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.xst" -ofn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.syr" 
+xst -intstyle ise -ifn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.xst" -ofn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.syr" 
+xst -intstyle ise -ifn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.xst" -ofn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.syr" 
+xst -intstyle ise -ifn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.xst" -ofn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.syr" 
+xst -intstyle ise -ifn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.xst" -ofn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc trivium.ucf -p xc3s500e-fg320-5 trivium_cipher.ngc trivium_cipher.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o trivium_cipher_map.ncd trivium_cipher.ngd trivium_cipher.pcf 
+par -w -intstyle ise -ol high -t 1 trivium_cipher_map.ncd trivium_cipher.ncd trivium_cipher.pcf 
+bitgen -intstyle ise -f trivium_cipher.ut trivium_cipher.ncd 
+xst -intstyle ise -ifn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.xst" -ofn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc trivium.ucf -p xc3s500e-fg320-5 trivium_cipher.ngc trivium_cipher.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o trivium_cipher_map.ncd trivium_cipher.ngd trivium_cipher.pcf 
+par -w -intstyle ise -ol high -t 1 trivium_cipher_map.ncd trivium_cipher.ncd trivium_cipher.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml trivium_cipher.twx trivium_cipher.ncd -o trivium_cipher.twr trivium_cipher.pcf -ucf trivium.ucf 
+bitgen -intstyle ise -f trivium_cipher.ut trivium_cipher.ncd 
+xst -intstyle ise -ifn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.xst" -ofn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.syr" 
+xst -intstyle ise -ifn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.xst" -ofn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc trivium.ucf -p xc3s500e-fg320-5 trivium_cipher.ngc trivium_cipher.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o trivium_cipher_map.ncd trivium_cipher.ngd trivium_cipher.pcf 
+par -w -intstyle ise -ol high -t 1 trivium_cipher_map.ncd trivium_cipher.ncd trivium_cipher.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml trivium_cipher.twx trivium_cipher.ncd -o trivium_cipher.twr trivium_cipher.pcf -ucf trivium.ucf 
+bitgen -intstyle ise -f trivium_cipher.ut trivium_cipher.ncd 
+xst -intstyle ise -ifn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.xst" -ofn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.syr" 
+xst -intstyle ise -ifn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.xst" -ofn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc trivium.ucf -p xc3s500e-fg320-5 trivium_cipher.ngc trivium_cipher.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o trivium_cipher_map.ncd trivium_cipher.ngd trivium_cipher.pcf 
+par -w -intstyle ise -ol high -t 1 trivium_cipher_map.ncd trivium_cipher.ncd trivium_cipher.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml trivium_cipher.twx trivium_cipher.ncd -o trivium_cipher.twr trivium_cipher.pcf -ucf trivium.ucf 
+bitgen -intstyle ise -f trivium_cipher.ut trivium_cipher.ncd 
+xst -intstyle ise -ifn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.xst" -ofn "C:/Users/ljtale/ISE_Projects/ELEC427/Project3/trivium_cipher/trivium_cipher.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc trivium.ucf -p xc3s500e-fg320-5 trivium_cipher.ngc trivium_cipher.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o trivium_cipher_map.ncd trivium_cipher.ngd trivium_cipher.pcf 
+par -w -intstyle ise -ol high -t 1 trivium_cipher_map.ncd trivium_cipher.ncd trivium_cipher.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml trivium_cipher.twx trivium_cipher.ncd -o trivium_cipher.twr trivium_cipher.pcf -ucf trivium.ucf 
+bitgen -intstyle ise -f trivium_cipher.ut trivium_cipher.ncd 

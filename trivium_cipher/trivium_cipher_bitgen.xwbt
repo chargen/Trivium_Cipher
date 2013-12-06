@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\ljtale\ISE_Projects\ELEC427\Project3\trivium_cipher\trivium_cipher.ncd
+OUTFILE=C:\Users\ljtale\ISE_Projects\ELEC427\Project3\trivium_cipher\trivium_cipher.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=C:\Users\ljtale\ISE_Projects\ELEC427\Project3\trivium_cipher
+LICENSE=WebPack
+USER_INFO=_

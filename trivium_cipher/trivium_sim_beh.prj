@@ -1,0 +1,6 @@
+verilog work "pro1_7seg.v"
+verilog work "ipcore_dir/plain.v"
+verilog work "ipcore_dir/cipher.v"
+verilog work "trivium_cipher.v"
+verilog work "trivium_sim.v"
+verilog work "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

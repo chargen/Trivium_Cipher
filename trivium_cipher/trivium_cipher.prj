@@ -1,0 +1,4 @@
+verilog work "pro1_7seg.v"
+verilog work "ipcore_dir/plain.v"
+verilog work "ipcore_dir/cipher.v"
+verilog work "trivium_cipher.v"
